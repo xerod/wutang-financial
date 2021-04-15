@@ -7,12 +7,12 @@ Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RIS
 ## Installation
 
 1. Install docker-compose. Please read [Docker installation](https://docs.docker.com/compose/install/)
-2. Pull the freqtrade image <br/>
-   `docker-compose pull`
-3. Clone this repo: <br/>
+2. Clone this repo: <br/>
    `git clone https://github.com/xerod/wutang-financial.git`
-4. See your container status: <br/>
-   `docker ps -a`
+3. Pull the freqtrade image <br/>
+   `docker-compose pull`
+4. Check your docker images: <br/>
+   `docker images -a`
 5. Check if your freqtrade running: <br/>
    `docker-compose run freqtrade --help`
 
