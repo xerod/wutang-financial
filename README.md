@@ -16,14 +16,27 @@ Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RIS
 5. Check if your freqtrade running: <br/>
    `docker-compose run freqtrade --help`
 
-## Commands
+## Basic Commands
 
 Since we running it on docker container, every specific command that not registered on `docker-compose.yml` should use a `docker-compose run --rm` as a prefix.
 
 For instance, Run this command to download any data within 180 days : <br/>
-`docker-compose run --rm freqtrade download-data`
 
-### Bot Commands
+```
+docker-compose run --rm freqtrade download-data
+```
+
+### Start the bot
+
+To do a dry-run, please make sure `dry_run` value is **true** inside `config.json`, then run this bot using:
+
+```
+docker compose up
+```
+
+Once the bot started, the Freqtrade UI will be available at http://localhost:8080.
+
+### Other bot Commands
 
 ```
 usage: freqtrade [-h] [-V]
