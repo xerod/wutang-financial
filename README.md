@@ -1,5 +1,7 @@
 ## Disclaimer
 
+![Alt Text](https://media.giphy.com/media/128RvI3CzjuXG8/giphy.gif)
+
 Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
 
 > This repo only contain user directory for freqtrade crypto-currency algorithmic trading software. Please read more about the software here: [Freqtrade Documentation](https://www.freqtrade.io/en/latest)
