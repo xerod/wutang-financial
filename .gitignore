@@ -7,3 +7,7 @@ user_data/plot/*
 
 # ignore trade database
 user_data/*.sqlite
+
+# ignore for production use
+user_data/config.production.json
+user_data/config.dry.json
